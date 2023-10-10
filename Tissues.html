@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tissue Education</title>
+</head>
+<body style="background-color: #e0f7fa; text-align: center; font-family: Arial, sans-serif;">
+
+<div style="margin-top: 20px;">
+  <h1 style="color: #00796b;">Chapter 6: <b>Tissues</b></h1>
+  <div id="videoSection" style="margin: 20px auto; width: 80%; display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+
+    <!-- Plant Tissues - Beginner -->
+    <div style="flex: 1; background-color: #ffffff; padding: 10px; border: 2px solid #00796b; border-radius: 10px;">
+      <h2 style="color: #00796b;">Plant Tissues - Beginner</h2>
+      <iframe width="100%" height="315" src="https://youtube.com/embed/Mp5w_8X33p4" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Plant Tissues - Advanced -->
+    <div style="flex: 1; background-color: #ffffff; padding: 10px; border: 2px solid #00796b; border-radius: 10px;">
+      <h2 style="color: #00796b;">Plant Tissues - Advanced</h2>
+      <iframe width="100%" height="315" src="https://youtube.com/embed/iVtWrHuDAL8" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Animal Tissues - Beginner -->
+    <div style="flex: 1; background-color: #ffffff; padding: 10px; border: 2px solid #00796b; border-radius: 10px;">
+      <h2 style="color: #00796b;">Animal Tissues - Beginner</h2>
+      <iframe width="100%" height="315" src="https://youtube.com/embed/U8z3Wtj8njY" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Animal Tissues - Advanced -->
+    <div style="flex: 1; background-color: #ffffff; padding: 10px; border: 2px solid #00796b; border-radius: 10px;">
+      <h2 style="color: #00796b;">Animal Tissues - Advanced</h2>
+      <iframe width="100%" height="315" src="https://youtube.com/embed/EKmIVt6kqZ0" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript">
+  // Example JavaScript to toggle a class or any other interactive functionality
+  document.getElementById('videoSection').addEventListener('click', function(e) {
+    if(e.target && e.target.nodeName == "H2") {
+      alert('You clicked on video title: ' + e.target.innerHTML);
+    }
+  });
+</script>
+
+</body>
+</html>
